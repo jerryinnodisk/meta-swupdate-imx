@@ -1,7 +1,7 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
 FILES:${PN} += "/etc/*"
-SRC_URI += " file://0001-imx8mp-asbc-3m80-default-env-lf-6.1.36-2.1.0.patch"
+SRC_URI += " file://0001-imx8mp-asbc-3m80-default-env-lf-6.1.55.patch"
 
 SWU_HW_REV ?= "1.0"
 
